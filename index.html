@@ -1,72 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-MZ">
+<html lang="pt">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Charmila & Iracema - 9 Nov 2026</title>
+<title>Charmila & Iracema - Nosso Casamento</title>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
-:root{--rosa:#f8d7e0;--claro:#fff0f3;--vinho:#6b1d2d;--dour:#c9a86a}
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Montserrat,sans-serif;background:var(--claro);color:#4a2c33}
-.envelope{position:fixed;inset:0;background:#fce4ec;z-index:9999;display:flex;align-items:center;justify-content:center;flex-direction:column;transition:1s}
-.envelope.aberto{transform:translateY(-100%)}
-.lacre{width:110px;height:110px;background:radial-gradient(#e6b87a,#a67c3a);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-family:Great Vibes,cursive;font-size:38px;cursor:pointer}
-.hero{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
-.hero h1{font-family:Great Vibes,cursive;font-size:65px}
-.card{background:#fff;margin:-60px 15px 0;border-radius:20px;padding:30px 20px;box-shadow:0 10px 40px rgba(0,0,0,.1);text-align:center;z-index:2;position:relative}
-.titulo{font-family:Great Vibes,cursive;font-size:40px;color:var(--vinho);margin:15px 0}
-.sub{letter-spacing:4px;font-size:11px;color:var(--dour);font-weight:700}
-.contador{display:flex;justify-content:center;gap:10px;margin:20px 0}
-.contador div{background:var(--claro);border-radius:12px;padding:10px;min-width:60px}
-.sec{padding:35px 20px;max-width:600px;margin:auto}
-.sec img{width:100%;border-radius:15px;margin:12px 0}
-.btn{background:var(--vinho);color:#fff;padding:12px 22px;border-radius:30px;text-decoration:none;display:inline-block;margin-top:10px;font-size:13px}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Montserrat',sans-serif;background:#fff9f5;color:#4a2c2a}
+  .hero{height:100vh;position:relative;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
+  .hero img{position:absolute;width:100%;height:100%;object-fit:cover;filter:brightness(0.7)}
+  .hero-content{position:relative;z-index:2;color:white;padding:20px}
+  .hero-content h1{font-family:'Great Vibes',cursive;font-size:4.5rem;line-height:1}
+  .hero-content p{letter-spacing:4px;margin-top:15px;text-transform:uppercase}
+  .data{margin-top:25px;background:rgba(255,255,255,0.2);backdrop-filter:blur(10px);padding:12px 25px;border-radius:30px;display:inline-block;border:1px solid rgba(255,255,255,0.3)}
+  section{padding:60px 20px;max-width:900px;margin:auto;text-align:center}
+  h2{font-family:'Great Vibes',cursive;font-size:3.2rem;color:#b76e79;margin-bottom:20px}
+  .galeria{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
+  .galeria img{width:100%;height:280px;object-fit:cover;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,0.15)}
+  .galeria img:nth-child(3){grid-column: span 2; height:350px}
+  .card{background:white;padding:35px 25px;border-radius:25px;box-shadow:0 15px 40px rgba(183,110,121,0.15);margin-top:30px;border:1px solid #fde8e0}
+  .btn{display:inline-block;background:#b76e79;color:white;padding:16px 35px;border-radius:50px;text-decoration:none;font-weight:600;margin-top:20px;letter-spacing:1px}
+  .btn:hover{background:#a05a65}
+  .footer{background:#4a2c2a;color:#fde8e0;padding:40px 20px;text-align:center;margin-top:40px}
 </style>
 </head>
 <body>
 
-<div class="envelope" id="envelope">
-  <div class="lacre" onclick="document.getElementById('envelope').classList.add('aberto')">C & I</div>
-  <p style="margin-top:20px;font-family:Great Vibes,cursive;font-size:22px;color:var(--vinho)">Clique no lacre para abrir</p>
+<div class="hero">
+  <img src="IMG_9224.jpg" alt="Capa">
+  <div class="hero-content">
+    <p>Vamos nos casar</p>
+    <h1>Charmila<br>& Iracema</h1>
+    <div class="data">📅 2026 • Gurué, Zambézia</div>
+  </div>
 </div>
 
-<div class="hero" style="background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('capa-charmila-iracema.jpg') center/cover;">
-  <div><p style="letter-spacing:5px;font-size:12px">SAVE THE DATE</p><h1>Charmila<br>& Iracema</h1><p>09 • 11 • 2026 • Mueda</p></div>
+<section>
+  <h2>Nossa História</h2>
+  <p>Com as bênçãos de Deus e de nossas famílias, convidamos você para celebrar o dia mais especial das nossas vidas. Um amor que começou em Gurué e agora se eterniza.</p>
+  
+  <div class="galeria">
+    <img src="IMG_9225.jpg" alt="Foto 2">
+    <img src="IMG_9226.jpg" alt="Foto 3">
+    <img src="IMG_9228.jpg" alt="Foto 4">
+  </div>
+
+  <div class="card">
+    <h2 style="font-size:2.8rem">Detalhes</h2>
+    <p><strong>💒 Cerimónia Religiosa</strong><br>Em breve anunciaremos local e hora</p>
+    <br>
+    <p><strong>🎉 Recepção</strong><br>Gurué - Zambézia</p>
+    <br>
+    <p style="color:#b76e79;font-weight:600">Sua presença é o nosso maior presente!</p>
+    <a class="btn" href="https://wa.me/258XXXXXXXXX?text=Olá%20Charmila%20e%20Iracema!%20Confirmo%20minha%20presença%20no%20casamento%20💍" target="_blank">CONFIRMAR PRESENÇA</a>
+  </div>
+</section>
+
+<div class="footer">
+  <h2 style="color:#fde8e0;margin:0">C & I</h2>
+  <p style="margin-top:10px;letter-spacing:2px;font-size:0.9rem">CHARMILA & IRACEMA • 2026</p>
+  <p style="margin-top:10px;font-size:0.8rem;opacity:0.7">Feito com amor em Gurué</p>
 </div>
 
-<div class="card">
-  <p class="sub">Contagem Decrescente</p>
-  <div class="contador"><div><span id="d">00</span><small>DIAS</small></div><div><span id="h">00</span><small>HORAS</small></div><div><span id="m">00</span><small>MIN</small></div><div><span id="s">00</span><small>SEG</small></div></div>
-  <h2 class="titulo">Charmila Elija & Iracema Elija</h2>
-  <p>9 de Novembro de 2026 - Mueda</p>
-</div>
-
-<div class="sec">
-  <h2 class="titulo">Nossa Galeria</h2>
-  <img src="casal-galeria.jpg" alt="casal-galeria">
-</div>
-
-<div class="sec" style="background:#fff;border-radius:20px">
-  <h2 class="titulo">Cerimônia</h2>
-  <img src="cerimonia-mueda.jpg" alt="cerimonia-mueda">
-  <p><b>Igreja São João Bosco - Mueda</b> - 15h30</p>
-  <h2 class="titulo" style="margin-top:30px">Recepção</h2>
-  <img src="recepcao-mueda-garden.jpg" alt="recepcao-mueda-garden">
-  <p><b>Salão Mueda Garden</b> - 18h00</p>
-</div>
-
-<script>
-let alvo=new Date('2026-11-09T15:30:00').getTime();
-setInterval(()=>{
- let d=alvo-new Date().getTime();
- if(d>0){
-  document.getElementById('d').innerText=Math.floor(d/86400000);
-  document.getElementById('h').innerText=Math.floor((d%86400000)/3600000);
-  document.getElementById('m').innerText=Math.floor((d%3600000)/60000);
-  document.getElementById('s').innerText=Math.floor((d%60000)/1000);
- }
-},1000);
-</script>
 </body>
 </html>
